@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "10-pyclass"
+version = "0.1.0"
+description = ""
+authors = ["ferruccio_ribeiro <ferruccioribeiro@outlook.com>"]
+readme = "README.md"
+packages = [{include = "10"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
